@@ -248,7 +248,7 @@ Refer `test.ipynb` for more detailed evaluation.
 
 The application uses a MySQL database with a single table named `APIkeys`:
 
-- **id**: Primary key (INTEGER).
+- **id**: Primary key (INTEGER AUTO_INCREMENT).
 - **private_key**: The private key stored as a Base64 encoded blob.
 - **public_key**: The public key for RSA (Base64 encoded), if applicable.
 - **algorithm**: The encryption algorithm associated with the key.
